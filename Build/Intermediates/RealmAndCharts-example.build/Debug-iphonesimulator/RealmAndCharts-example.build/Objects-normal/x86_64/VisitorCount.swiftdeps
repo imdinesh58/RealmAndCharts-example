@@ -1,0 +1,321 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VisitorCount"
+provides-nominal:
+- "C22RealmAndCharts_example12VisitorCount"
+provides-member:
+- ["C22RealmAndCharts_example12VisitorCount", ""]
+provides-dynamic-lookup:
+- "count"
+- "date"
+- "save"
+depends-top-level:
+- "Date"
+- "Object"
+- "Int"
+- !private "Realm"
+- !private "NSError"
+- !private "StringLiteralType"
+- !private "fatalError"
+- "VisitorCount"
+depends-member:
+- ["P10RealmSwift11AddableType", "init"]
+- ["Ps9AnyObject", "Date"]
+- ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "Iterator"]
+- !private ["Ps9AnyObject", "Realm"]
+- !private ["Ps9AnyObject", "add"]
+- ["Ps9AnyObject", "count"]
+- ["Ps9AnyObject", "date"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "localizedDescription"]
+- ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "write"]
+- ["Ps9AnyObject", ""]
+- ["Ps17BitwiseOperations", "init"]
+- ["Ps7CVarArg", "Date"]
+- ["Ps7CVarArg", "Int"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Realm"]
+- ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "date"]
+- !private ["Ps7CVarArg", "fatalError"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "localizedDescription"]
+- ["Ps7CVarArg", "save"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Date"]
+- ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Realm"]
+- ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "date"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "localizedDescription"]
+- ["Ps28CustomDebugStringConvertible", "save"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Date"]
+- ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Realm"]
+- ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "date"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "localizedDescription"]
+- ["Ps23CustomStringConvertible", "save"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Date", "deinit"]
+- ["V10Foundation4Date", "init"]
+- ["Ps9Equatable", "Date"]
+- ["Ps9Equatable", "Int"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "Realm"]
+- !private ["Ps9Equatable", "add"]
+- ["Ps9Equatable", "count"]
+- ["Ps9Equatable", "date"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "localizedDescription"]
+- ["Ps9Equatable", "save"]
+- !private ["Ps9Equatable", "write"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "Date"]
+- ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "Iterator"]
+- !private ["Ps8Hashable", "Realm"]
+- ["Ps8Hashable", "count"]
+- ["Ps8Hashable", "date"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "localizedDescription"]
+- ["Ps8Hashable", "save"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- ["Si", "init"]
+- ["Ps7Integer", "init"]
+- ["Ps17IntegerArithmetic", "init"]
+- ["P10RealmSwift10MinMaxType", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- ["CSo7NSError", "deinit"]
+- !private ["CSo7NSError", "localizedDescription"]
+- ["CSo8NSObject", "Date"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Iterator"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "Realm"]
+- ["CSo8NSObject", "count"]
+- ["CSo8NSObject", "date"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- ["CSo8NSObject", "save"]
+- ["PSo16NSObjectProtocol", "Date"]
+- ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "Iterator"]
+- !private ["PSo16NSObjectProtocol", "Realm"]
+- ["PSo16NSObjectProtocol", "count"]
+- ["PSo16NSObjectProtocol", "date"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- ["PSo16NSObjectProtocol", "save"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- ["Os5Never", "deinit"]
+- ["C10RealmSwift6Object", "Date"]
+- ["C10RealmSwift6Object", "Int"]
+- !private ["C10RealmSwift6Object", "Iterator"]
+- !private ["C10RealmSwift6Object", "NSError"]
+- !private ["C10RealmSwift6Object", "Realm"]
+- ["C10RealmSwift6Object", "count"]
+- ["C10RealmSwift6Object", "date"]
+- ["C10RealmSwift6Object", "deinit"]
+- !private ["C10RealmSwift6Object", "fatalError"]
+- ["C10RealmSwift6Object", "init"]
+- ["C10RealmSwift6Object", "save"]
+- ["C10RealmSwift6Object", ""]
+- ["CSo13RLMObjectBase", "Date"]
+- ["CSo13RLMObjectBase", "Int"]
+- !private ["CSo13RLMObjectBase", "Iterator"]
+- !private ["CSo13RLMObjectBase", "NSError"]
+- !private ["CSo13RLMObjectBase", "Realm"]
+- ["CSo13RLMObjectBase", "count"]
+- ["CSo13RLMObjectBase", "date"]
+- !private ["CSo13RLMObjectBase", "deinit"]
+- !private ["CSo13RLMObjectBase", "fatalError"]
+- ["CSo13RLMObjectBase", "init"]
+- ["CSo13RLMObjectBase", "save"]
+- ["CSo15RLMObjectSchema", "deinit"]
+- ["CSo8RLMRealm", "deinit"]
+- ["CSo9RLMSchema", "deinit"]
+- !private ["C10RealmSwift5Realm", "add"]
+- ["C10RealmSwift5Realm", "deinit"]
+- !private ["C10RealmSwift5Realm", "init"]
+- !private ["C10RealmSwift5Realm", "write"]
+- ["P10RealmSwift17RealmOptionalType", "init"]
+- ["P10Foundation20ReferenceConvertible", "init"]
+- ["Ps13SignedInteger", "init"]
+- ["Ps12SignedNumber", "init"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- ["Su", "deinit"]
+- ["C22RealmAndCharts_example12VisitorCount", "Date"]
+- ["C22RealmAndCharts_example12VisitorCount", "Int"]
+- !private ["C22RealmAndCharts_example12VisitorCount", "NSError"]
+- !private ["C22RealmAndCharts_example12VisitorCount", "Realm"]
+- ["C22RealmAndCharts_example12VisitorCount", "count"]
+- ["C22RealmAndCharts_example12VisitorCount", "date"]
+- ["C22RealmAndCharts_example12VisitorCount", "deinit"]
+- !private ["C22RealmAndCharts_example12VisitorCount", "fatalError"]
+- ["C22RealmAndCharts_example12VisitorCount", "init"]
+- ["C22RealmAndCharts_example12VisitorCount", "save"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps9_Hashable", "Date"]
+- ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "Iterator"]
+- !private ["Ps9_Hashable", "Realm"]
+- ["Ps9_Hashable", "count"]
+- ["Ps9_Hashable", "date"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "localizedDescription"]
+- ["Ps9_Hashable", "save"]
+- ["Ps9_Hashable", ""]
+- ["Ps14_Incrementable", "init"]
+- ["Ps8_Integer", "init"]
+- ["Ps18_IntegerArithmetic", "init"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps14_SignedInteger", "init"]
+- ["Ps11_Strideable", "init"]
+depends-nominal:
+- "P10RealmSwift11AddableType"
+- "Ps9AnyObject"
+- "Ps17BitwiseOperations"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Si"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "P10RealmSwift10MinMaxType"
+- "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo7NSError"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Os5Never"
+- "C10RealmSwift6Object"
+- "CSo13RLMObjectBase"
+- "CSo15RLMObjectSchema"
+- "CSo8RLMRealm"
+- "CSo9RLMSchema"
+- "C10RealmSwift5Realm"
+- "P10RealmSwift17RealmOptionalType"
+- "P10Foundation20ReferenceConvertible"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Vs12StaticString"
+- "Ps10Strideable"
+- "SS"
+- "Su"
+- "C22RealmAndCharts_example12VisitorCount"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredential.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/apple-1/Downloads/SWIFT USEFULS/RealmAndCharts-example-master/RealmAndCharts-example/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+interface-hash: "f1ba0b6553a36e67848d8b366371c5c0"
